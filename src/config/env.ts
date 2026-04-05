@@ -9,8 +9,6 @@ const envSchema = z.object({
   MAX_DAILY_LOSS_USD: z.string().default("25"),
   TAKE_PROFIT_PCT: z.string().default("12"),
   STOP_LOSS_PCT: z.string().default("6"),
-  PRIVATE_KEY: z.string().default("0xYOUR_PRIVATE_KEY_HERE"),
-  DRY_RUN: z.string().default("true"),
   KALSHI_API_KEY: z.string().default("your_api_key"),
   KALSHI_API_SECRET: z.string().default("your_api_secret"),
   ORDER_SIZE_USD: z.string().default("25"),
